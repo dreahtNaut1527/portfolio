@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar color="transparent" flat app>
+    <v-app-bar color="transparent" :flat="$vuetify.breakpoint.mdAndUp" app>
         <v-spacer></v-spacer>
         <v-btn color="#1b95f2" text>Home</v-btn>
         <v-btn color="#1b95f2" text>Projects</v-btn>
